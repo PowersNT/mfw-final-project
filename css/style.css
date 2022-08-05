@@ -1,0 +1,326 @@
+/* || General Classes and Selectors */
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-base-blue {
+    background-color: rgba(171, 202, 231, 1.0);
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color:rgba(15, 30, 108, 1.0);
+}
+
+/* || Navigation Classes and Selectors */
+
+.navbar-brand{
+    font-family: 'Imprima', sans-serif;
+    color: rgba(15, 30, 108, 1.0);
+}
+
+.nav-item .nav-link {
+    font-family: 'Imprima', sans-serif;
+    color: rgba(15, 30, 108, 1.0);
+}
+
+/* || Home Parallax Section Classes and Selectors */
+
+.parallax-1{
+    /* The image used */
+    background-image: linear-gradient(rgba(15, 30, 108, 0.5), rgba(0, 15, 30, 0.5)), url("../img/map-graphic-crop.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    color:rgba(15, 30, 108, 1.0);
+}
+
+.blue-display-color {
+    font-family: 'Imprima', sans-serif;
+    color:rgba(15, 30, 108, 1.0);
+    font-size: 36px;
+}
+
+.white-display-color {
+    font-family: 'Imprima', sans-serif;
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 36px;
+}
+
+/* || About Section Classes */
+
+.about-container {
+    width: 100%;
+    padding: 0.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    /* margin: 0 auto; */
+    padding: 2em;
+    /* width: 100%; */
+    background-color: rgba(171, 202, 231, 1.0);
+    font-family: 'Imprima', sans-serif;
+    color:rgba(15, 30, 108, 1.0);
+    font-size: 20px;
+}
+
+@media (min-width: 768px) { 
+
+    .about-col-left{
+border-right: 1px solid rgba(15, 30, 108, 1.0);
+}
+
+.about-col-right{
+border-left: 1px solid rgba(15, 30, 108, 1.0);
+}
+
+}
+
+.about-li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blue-display-head {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color:rgba(15, 30, 108, 1.0);
+}
+
+.col-header {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.blue-text-color {
+    font-family: 'Imprima', sans-serif;
+    color:rgba(15, 30, 108, 1.0);
+    font-size: 30px;
+}
+
+.orange-text-color {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    color: rgba(223, 123, 63, 1.0);
+}
+
+.row {
+    margin: 0;
+}
+
+/* || Graphics Section Classes */
+
+.card-title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color:rgba(15, 30, 108, 1.0);
+}
+
+/* || Web Projects Section Class */
+
+.projects-spacing {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+}
+
+.projects-img1{
+    background-image: linear-gradient(rgba(107, 110, 112, .85),rgba(107, 110, 112, .80)), url(../img/powers-photos-thumb.jpg);
+    background-size: contain;
+}
+
+.projects-item {
+    height: 15em;
+    border-radius: 6px;
+    margin-bottom: 0.5em;
+}
+
+.projects-img-header {
+    margin-top: 0.5em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projects-p {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 24px;
+}
+
+@media  (max-width: 930px)
+    and (min-width: 768px){
+    .projects-p{
+        font-size: .80em;
+    }
+}
+
+.projects-icons {
+    font-size: 30px;
+    /* margin-bottom: 0.5em; */
+}
+
+.white-text-color {
+    font-family: 'Imprima', sans-serif;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1.0);
+    
+}
+
+/* || Contact Section Classes and Selectors */
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.form-container {
+    background-color:rgba(171, 202, 231, 1.0);
+}
+
+.contact-header {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 2%;
+    font-family: inherit;
+    text-align: center;
+}
+
+.contact-map {
+    margin: 1em;
+    width: 95%;
+    height: 95%;
+    border: 0px;
+}
+
+.contact-submit {
+    width: fit-content;
+    font-family: inherit;
+    background-color: rgba(255, 255, 255, 1.0);
+    color:rgba(15, 30, 108, 1.0);
+    border-radius: 2px;
+}
+
+.contact-submit:hover{
+    background: rgba(15, 30, 108, 1.0);
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: rgba(15, 30, 108, 0.5);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.form-control:click {
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: rgba(15, 30, 108, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+form input {
+    font-family: 'Imprima', sans-serif;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form textarea {
+    font-family: 'Imprima', sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+
+input[type=submit] {
+    background-color: rgba(15, 30, 108, 1.0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgba(15, 30, 108, 0.5);
+  }
+
+/* || Footer Section Classes */
+
+.footer {
+    height: 60px;
+    background-color: rgba(15, 30, 108, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0;
+    margin-right: 20px;
+    align-self: center;
+    color: rgba(255, 255, 255, 1.0)
+}
+
+.fa a {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-github-square {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa-twitter {
+    color: white;
+  }
+
+
+
+
+
+
+ 
+
+

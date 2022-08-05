@@ -1,28 +1,269 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap, Google Web Fonts, & Font Awesome CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Hello, world!</title>
+    <title>MFW Final Project | Powers Design</title>
+
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="container">
+<!--NAVIGATION-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-base-blue fixed-top">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#">powers<span style="color:white">design</span></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#graphics">graphics</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#projects">projects</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contact">contact</a>
+             </li>
+            </ul>
+            
+          </div>
+
+        </div>
+
+      </nav>
+<!--HOME PAGE PARALLAX SECTION-->
+      <section class="parallax-1 position-relative">
+
+        <div class="container-lg bg-base-blue text-white w-50 p-4 position-absolute top-50 start-50 translate-middle" id="home">
+          <h1 class="text-center blue-display-color">powers<span class="white-display-color">design</span></h1>
+          <hr>
+          <h2 class="blue-subhead text-center">WEB DESIGN | ILLUSTRATION</h2>
+        </div>
+
+     </section>
+<!--ABOUT SECTION-->
+     <section class="about" id="about">
+
+        <div class="about-container">
+              <h2 class="orange-text-color text-center fw-bold">About</h2>
+        </div>
+
+       <div class="container-fluid">
+
+         <div class="about-content text-center row" >
+
+           <div class="col-md-4 about-col-left">
+             <img src="img/tricia-about-crop.jpg" alt="Three-quarter pose of Tricia Powers, web developer, with arms crossed">
+             <p class="col-header blue-display-head text-center fw-bold">Patricia E. Powers</p>
+           </div>
+
+            <div class="col-md-4">
+             <h3 class="col-header blue-text-color">Developer</h3>
+             <p>I love being able to sketch out an idea, and bring it to life in code.</p>
+             <p class="col-header blue-text-color">Technologies Being Studied:</p>
+             <p>HTML, CSS, Javascript, Bootstrap 5, and Git/GitHub</p>
+             <p class="col-header blue-text-color">Dev/UX/UI Tools:</p>
+             <ul class="about-li">
+               <li>CodePen</li>
+               <li>CodeSandbox</li>
+               <li>Visual Studio Code</li>
+               <li>Chrome DevTools</li>
+               <li>Figma</li>
+               <li>Sketch</li>
+             </ul>
+           </div>
+
+            <div class="col-md-4 about-col-right">
+             <h3 class="col-header blue-text-color">Illustrator</h3>
+             <p>In addition to being a developer, I am an illustrator skilled in a variety of fields and techniques</p>
+             <p class="col-header blue-text-color">Fields</p>
+             <p>Infographics, Editorial, Advertising</p>
+             <p class="col-header blue-text-color">Techniques</p>
+             <ul class="about-li">
+               <li>Watercolor</li>
+               <li>Scratchboard</li>
+               <li>Colored Pencil</li>
+               <li>Ink/Goauche</li>
+               <li>Adobe Illustrator</li>
+               <li>Adobe Photoshop</li>
+             </ul>
+           </div>
+
+        </div>
+
+       </div>
+
+     </section>
+<!--GRAPHICS SECTION-->
+     <section class="graphics" id="graphics">
+
+       <div class="about-container">
+         <div class="text-center">
+           <div>
+             <h2 class="orange-text-color fw-bold">Graphics</h2>
+           </div>
+         </div>
+       </div>
+
+       <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/business-graphic-col.jpg" class="card-img-top" alt="Photo of infographic about problems in the airline industry">
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold">BUSINESS GRAPHICS</h5>
+              <p class="card-text">Selection of graphics created for the Business Section of the Democrat & Chronicle between 2000 and 2005.</p>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto p-3">
+              <a class="btn btn-secondary" href="#" role="button">ABOUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/medical-graphic-col.jpg" class="card-img-top" alt="Photo of infographic that describes the life cycle of the cold virus">
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold">MEDICAL GRAPHICS</h5>
+              <p class="card-text">Selection of medical graphics created for various sections of the Democrat & Chronicle.</p>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto p-3">
+              <a class="btn btn-secondary" href="#" role="button">ABOUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/feature-graphic-col.jpg" class="card-img-top" alt="Photo of game board-style map graphic for a story on the proposed DestinyNY mall">
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold">FEATURE GRAPHICS</h5>
+              <p class="card-text">Selection of feature graphics published in various newspapers like the Democrat & Chronicle.</p>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto p-3">
+              <a class="btn btn-secondary" href="#" role="button">ABOUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/redesign-graphic-col.jpg" class="card-img-top" alt="Photo of the redesigned cover for The Times newspaper's Annual Report">
+            <div class="card-body">
+              <h5 class="card-title text-center fw-bold">REDESIGN CASES</h5>
+              <p class="card-text">Selection of redesign projects for publications at various newspapers such as The Times in Gainesville, Ga..</p>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto p-3">
+              <a class="btn btn-secondary" href="#" role="button">ABOUT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </section>
+<!--WEB PROJECTS SECTION-->
+     <section class="projects" id="projects">
+
+      <div class="about-container">
+        <div class="text-center">
+          <div>
+            <h2 class="orange-text-color fw-bold">Web Projects</h2>
+          </div>
+        </div>
+      </div>
+
+     </section>
+
+     <section class="bg-base-blue container-fluid">
+
+      <div class="row projects-spacing text-center d-flex justify-content-center p-4">
+        <div class="col-md-4">
+            <div class="col-md-12 img-responsive projects-img1 projects-item d-flex flex-column justify-content-between">
+                <h4 class="projects-img-header white-text-color">Powers Photos</h4>
+                <p class="projects-p">Personal site built using HTML, CSS, & Bootstrap 5</p>
+                <div class="d-flex flex-row justify-content-between projects-icons">
+                    <a href="https://powersnt.github.io/powers-photos/" target="_blank"><i class="fa fa-globe"></i></a>
+                    <a href="https://github.com/PowersNT/powers-photos" target="_blank"><i class="fa fa-github-square"></i></a>
+                </div>
+            </div>
+
+     </section>
+<!--CONTACT SECTION-->
+     <section class="contact" id="contact">
+
+      <div class="about-container">
+        <div class="text-center">
+          <div>
+            <h2 class="orange-text-color fw-bold">Contact</h2>
+          </div>
+        </div>
+      </div>
+
+     </section>
+<!--CONTACT SECTION-->
+     <section class="contact-container">
+
+       <div class="row">
+
+          <div class="form-container col-xs-12 col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46652.21846174613!2d-78.90096918381278!3d43.04640403523683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d36e461d9fa2ed%3A0x18c90824d94f6555!2sNorth%20Tonawanda%2C%20NY%2014120!5e0!3m2!1sen!2sus!4v1659709961978!5m2!1sen!2sus" 
+            class="contact-map" allowfullscreen></iframe>
+          </div>
+
+          <div class="form-container col-xs-12 col-md-6 text-center">
+            <h3 class="contact-header blue-text-color">Contact Me</h3>
+            <form action="action_page.php" method="post" class="contact-form">
+              <input type="text" name="firstName" class="form-control" placeholder="First Name" required>
+              <input type="text" name="lastName" class="form-control" placeholder="Last Name" required>
+              <input type="text" name="email" class="form-control" placeholder="Email" required>
+              <textarea name="message" class="form-control" placeholder="Message" cols="30" rows="10" required></textarea>
+              <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+      </div>
+
+     </section>
+<!--FOOTER SECTION-->
+     <footer class="footer d-flex flex-row justify-content-between p-4">
+
+      <div class="fa">
+        <a href="https://github.com/PowersNT" target="_blank" class="fa fa-github-square"></a>
+        <a href="https://twitter.com/pepowersdesign" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/tricia.powers.nt/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/patriciaepowerswebdev/" target="_blank" class=" fa fa-linkedin"></a>
+    </div>
+
+      <p class="copyright">&copy; Powers Design, 2022</p>
+
+     </footer>
+
+    </div>
+
+    <!-- Bootstrap Bundle with Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
   </body>
+
 </html>
